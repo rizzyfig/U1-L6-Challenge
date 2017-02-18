@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #3390FF;
+	font-family: Verdana, sans-serif;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+
+.logo img {
+	height: 35px;
+}
+
+.container {
+	background: white;
+	margin: 0 auto;
+	width: 400px;
+	padding: 40px;
+	text-align: center;
+}
+
+h2 {
+	color: #AAA;
+}
