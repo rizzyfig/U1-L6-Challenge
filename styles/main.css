@@ -66,6 +66,10 @@ fieldset {
 	border-radius: 2px;
 }
 
+button:hover {
+	background: #1E933C;
+}
+
 .container a {
 	color: grey;
 	font-size: 12px;

@@ -20,12 +20,12 @@
 	<main>
 		<div class="container">
 			<h1>Sign Up</h1>
-			<form class="first-form" action="/some-server-endpoint" method="post">
+			<form class="first-form" action="/forgot-password/new" method="post">
 			<fieldset name="sign-up">
-				<label for="email" >Email</label>
+				<label for="email" required>Email</label>
 				<input type="email" name="email" id="email" placeholder="foo@bar.com" />
 
-				<label for="Password">Password</label>
+				<label for="Password" required>Password</label>
 				<input type="password" name="password" id="password" placeholder="1234passw0rd"/>
 
 				<button type="submit">Sign Up</button>
@@ -35,7 +35,7 @@
 
 			<a href="pasword.html" class="forgot">Forgot your password?</a>
 		</div>
-		<div class="log-in">
+		<div class="log-in" action="/login">
 			<h4>Already have an account? <a href="login.html">Log in</a></h4>
 		</div>
 	</main>
