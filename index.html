@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Analog Sea Sign Up Page</title>
 
+	<!-- Responsive viewport tag, tells small screens that it's responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!-- Stylesheet -->
 	<link rel="stylesheet" href="styles/main.css"/>
 </head>
@@ -16,9 +19,24 @@
 
 	<main>
 		<div class="container">
-			<h2>Sign Up</h2>
-			<form class="sign-up">
+			<h1>Sign Up</h1>
+			<form class="first-form" action="/some-server-endpoint" method="post">
+			<fieldset name="sign-up">
+				<label for="email" >Email</label>
+				<input type="email" name="email" id="email" placeholder="foo@bar.com" />
+
+				<label for="Password">Password</label>
+				<input type="password" name="password" id="password" placeholder="1234passw0rd"/>
+
+				<button type="submit">Sign Up</button>
+
+			</fieldset>
 			</form>
+
+			<a href="pasword.html" class="forgot">Forgot your password?</a>
+		</div>
+		<div class="log-in">
+			<h4>Already have an account? <a href="login.html">Log in</a></h4>
 		</div>
 	</main>
 </body>
